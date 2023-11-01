@@ -19,9 +19,12 @@ p {
     }
 
   /* BUTTON */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .txt_tl{
     display: none;
+  }
+  .button-86{
+    white-space: unset;
   }
 }
   .button-86 {
