@@ -36,14 +36,20 @@ p {
   
 
 .button-86 {
+    all: unset;
+    width: auto;
+    height: 30px;
     font-size: 16px;
     background: transparent;
     border: none;
     position: relative;
     color: #f0f0f0;
     cursor: pointer;
+    z-index: 1;
     padding: 10px 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     white-space: unset;
     text-align: center;
     user-select: none;
@@ -52,17 +58,6 @@ p {
     margin: 0 auto;
   }
 
-  @media screen and (min-width: 380px) {
-    .button-86 {
-      all: unset;
-      width: auto;
-      height: 30px;
-      z-index: 1;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-  
   @media screen and (max-width: 379px) {
     .button-86{
         padding: 30px 20px;
