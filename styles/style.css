@@ -62,6 +62,7 @@ p {
       justify-content: center;
     }
   }
+  
   @media screen and (max-width: 379px) {
     .button-86{
         padding: 30px 20px;
