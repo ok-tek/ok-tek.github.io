@@ -18,6 +18,12 @@ p {
     color: rgb(255, 0, 0);
     }
 
+    .banner_s{
+      border-radius: 5%;
+    }
+
+
+
   /* BUTTON */
 @media screen and (max-width: 420px) {
   .txt_tl{
@@ -27,7 +33,7 @@ p {
     white-space: unset;
   }
 }
-  .button-86 {
+.button-86 {
     all: unset;
     width: auto;
     height: 30px;
