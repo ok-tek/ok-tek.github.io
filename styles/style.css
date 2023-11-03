@@ -25,16 +25,19 @@ p {
 
 
   /* BUTTON */
+
+@media screen and (max-width: 379px) {
+  .button-86{
+    padding: 20px 20px;
+  }
+
 @media screen and (max-width: 420px) {
   .txt_tl{
     display: none;
   }
 }
 
-@media screen and (max-width: 379px) {
-  .button-86{
-    padding: 20px 20px;
-  }
+
   
 }
 .button-86 {
