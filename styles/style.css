@@ -36,7 +36,6 @@ p {
   
 
 .button-86 {
-    all: unset;
     width: auto;
     height: 30px;
     font-size: 16px;
@@ -57,10 +56,15 @@ p {
     touch-action: manipulation;
     margin: 0 auto;
   }
-  
+
+  @media screen and (min-width: 380px) {
+    .button-86 {
+      all: unset
+    }
+  }
   @media screen and (max-width: 379px) {
     .button-86{
-        padding: 20px 20px;
+        padding: 30px 20px;
     }
   }
   .button-86::after,
