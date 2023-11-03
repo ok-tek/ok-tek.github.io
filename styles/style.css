@@ -26,14 +26,11 @@ p {
 
   /* BUTTON */
 
-@media screen and (max-width: 420px) {
+  @media screen and (max-width: 420px) {
   .txt_tl{
     display: none;
   }
 }
-
-
-  
 
 .button-86 {
     all: unset;
@@ -63,6 +60,7 @@ p {
         padding: 30px 20px;
     }
   }
+
   .button-86::after,
   .button-86::before {
     content: '';
